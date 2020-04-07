@@ -8,7 +8,10 @@ div.wrapper {
     background-color: white;
     height: 200px;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img.logo {
@@ -40,7 +43,8 @@ p.title {
 
 div.separator {
     height: 10px;
-    background-color: black;
+    /* background-color: black; */
+    background-image: linear-gradient(white, rgb(182, 182, 182), white);
 }
 
 body {
